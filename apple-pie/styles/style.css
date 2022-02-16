@@ -1,0 +1,92 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+
+}
+
+#applepieimg{
+    width:100%;
+    height: 600px;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+   
+  
+}
+
+header{
+    height:600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+h1{
+    z-index: 1;
+    color:white;
+   
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+#recipe-info{
+    
+    width:500px;
+}
+
+.information{
+    width: 60%;
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    
+}
+.section2{
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex;
+    flex-direction: column;   
+    
+}
+
+#cooking-info{
+    margin-left:100px;
+    width: 450px;
+}
+
+.section3{
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex;
+    flex-direction: column;   
+    text-align: justify;
+
+}
+
+
+hr{
+    width: 60%;
+    background-color: grey;
+}
+
+.olist{
+    list-style-type:none;
+
+}
+
+ul{
+    list-style-type:"-" ;
+}
